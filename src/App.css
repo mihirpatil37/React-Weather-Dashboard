@@ -1,0 +1,11 @@
+.App {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('https://cdn.dribbble.com/userupload/21060764/file/original-0a9ece62e5242913d69b3cd5a6f06397.png?resize=752x564&vertical=center');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}

@@ -1,0 +1,222 @@
+.charts-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.chart-container {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.chart-title {
+  color: white;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.chart-stats {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.7);
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.stat-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+}
+
+.min-temp {
+  color: #74b9ff;
+}
+
+.max-temp {
+  color: #e17055;
+}
+
+.min-humidity {
+  color: #4ECDC4;
+}
+
+.max-humidity {
+  color: #45B7AF;
+}
+
+.max-wind {
+  color: #FFD166;
+}
+
+.max-gust {
+  color: #FF9E6D;
+}
+
+/* Custom Tooltip Styles */
+.custom-tooltip {
+  background: rgba(0, 0, 0, 0.85);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.tooltip-time {
+  color: rgba(255,255,255,0.9);
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding-bottom: 4px;
+}
+
+.tooltip-item {
+  margin: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tooltip-label {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.85rem;
+  margin-right: 8px;
+}
+
+.tooltip-value {
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.temp-value {
+  color: #FF6B6B;
+}
+
+.feels-value {
+  color: #4ECDC4;
+}
+
+.wind-value {
+  color: #FFE66D;
+}
+
+.gust-value {
+  color: #FF9E6D;
+}
+
+/* Chart Explanation Styles */
+.chart-explanation {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.8);
+}
+
+.chart-explanation p {
+  margin: 0.25rem 0;
+}
+
+/* Guide Styles */
+.humidity-guide,
+.wind-guide {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+}
+
+.guide-title {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.guide-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.guide-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.8);
+}
+
+.color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.color-area {
+  width: 16px;
+  height: 8px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+/* Chart container responsive adjustments */
+@media (max-width: 768px) {
+  .chart-stats {
+    gap: 1rem;
+  }
+
+  .stat-item {
+    flex: 1;
+  }
+
+  .guide-items {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .chart-stats {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .chart-container {
+    padding: 1rem;
+  }
+}
