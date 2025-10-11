@@ -219,27 +219,27 @@ WeatherPro is a modern, user-friendly weather application that gives you compreh
 
 ### 🤔 General Questions
 
-**Q: Is WeatherPro completely free?**A: Yes! WeatherPro is completely free to use with no hidden costs.
+Q: Is WeatherPro completely free?**A: Yes! WeatherPro is completely free to use with no hidden costs.
 
-**Q: Do I need to create an account?**A: No account required! Just visit the website and start using it.
+Q: Do I need to create an account?**A: No account required! Just visit the website and start using it.
 
-**Q: How accurate is the weather data?**A: We use professional weather data sources with high accuracy forecasts.
+Q: How accurate is the weather data?**A: We use professional weather data sources with high accuracy forecasts.
 
 ### 🔧 Technical Questions
 
-**Q: Why can't I use the location feature?**A: Make sure you've allowed location access in your browser and device settings.
+Q: Why can't I use the location feature?**A: Make sure you've allowed location access in your browser and device settings.
 
-**Q: The app isn't loading properly. What should I do?**A: Try refreshing the page, clearing your browser cache, or using a different browser.
+Q: The app isn't loading properly. What should I do?**A: Try refreshing the page, clearing your browser cache, or using a different browser.
 
-**Q: Can I use WeatherPro offline?**A: An internet connection is required to fetch current weather data.
+Q: Can I use WeatherPro offline?**A: An internet connection is required to fetch current weather data.
 
 ### 🌤️ Weather Questions
 
-**Q: How often is the weather data updated?**A: Current weather updates every 10 minutes, forecasts update daily.
+Q: How often is the weather data updated?**A: Current weather updates every 10 minutes, forecasts update daily.
 
-**Q: What does "Feels Like" temperature mean?**A: This considers humidity and wind to show how the temperature actually feels to humans.
+Q: What does "Feels Like" temperature mean?**A: This considers humidity and wind to show how the temperature actually feels to humans.
 
-**Q: How far in advance are the forecasts?**A: We provide 7-day forecasts with hourly breakdowns for the first 2 days.
+Q: How far in advance are the forecasts?**A: We provide 7-day forecasts with hourly breakdowns for the first 2 days.
 
 🆘 Troubleshooting
 ------------------
