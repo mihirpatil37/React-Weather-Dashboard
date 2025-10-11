@@ -3,12 +3,11 @@
 
 A beautiful, responsive weather dashboard that provides real-time weather data, forecasts, and interactive visualizations for any location worldwide.
 
-[https://img.shields.io/badge/Weather-Live%20Data-blue](https://img.shields.io/badge/Weather-Live%20Data-blue) [https://img.shields.io/badge/Design-Responsive-green](https://img.shields.io/badge/Design-Responsive-green) [https://img.shields.io/badge/Price-Free-success](https://img.shields.io/badge/Price-Free-success)
 
 ✨ Live Application
 ------------------
 
-**🌐 Live Demo:** \[Your App Link Here\]
+**🌐 Live Demo:** \[[App](https://iwdb.netlify.app/)\]
 
 🎯 What is WeatherPro?
 ----------------------
@@ -330,6 +329,6 @@ _"Use it every day to plan my commute. Super accurate!"_ - Jennifer L.
 🌟 Start Using WeatherPro Today!
 --------------------------------
 
-\[**🚀 Open WeatherPro**\](Your App Link Here)
+\[**🚀 Open WeatherPro**\]([App Link](https://iwdb.netlify.app/))
 
 _Beautiful weather insights for everyone, everywhere_
