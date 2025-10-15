@@ -21,7 +21,7 @@ WeatherPro is a modern, user-friendly weather application that gives you compreh
 
 *   **🌡️ Real-time Weather** - Current temperature and conditions
     
-*   **📅 7-Day Forecast** - Daily and hourly predictions
+*   **📅 5-Day Forecast** - Daily and hourly predictions
     
 *   **📍 Multiple Search Options** - By city name or your current location
     
